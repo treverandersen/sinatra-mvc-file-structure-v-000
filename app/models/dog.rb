@@ -5,6 +5,7 @@ class Dog
     @name = name
     @breed = breed
     @age = age
+    @@all = []
   end
   def self.all
     @@all
